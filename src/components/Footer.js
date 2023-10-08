@@ -18,7 +18,7 @@ const Footer = () => {
       <ul class="footer-icons">
         {navBarSocialLinks.map(({ id, href, icon }) => (
           <li key={id}>
-            <a href={href} target="_blank" rel="noopener" class="footer-icon">
+            <a href={href} target="_blank" rel="noreferrer" class="footer-icon">
               <i class={icon}></i>
             </a>
           </li>
